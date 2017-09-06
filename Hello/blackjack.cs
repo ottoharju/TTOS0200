@@ -19,10 +19,13 @@ namespace Hello
     {
         public static void Blackjack()
         {
-            int myNumber = 17;
+            int myNumber;
             int theirNumber;
             System.Console.WriteLine("*** BlackJack! ***");
             System.Console.Write("Can you beat my number? Enter any number between 1-21: ");
+            //pyritään arpomaan jakajan kortti väliltä 10-21
+            Random rnd = new Random;
+            myNumber = rnd.Next(10, 21);
             //reading and converting 
             theirNumber = System.Convert.ToInt32(System.Console.ReadLine());
             //comparing that given umber is valid
