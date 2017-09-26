@@ -54,16 +54,11 @@ namespace Labrat
 
             public int TamaKerros { get; set; }
 
-
-
             public Hissi()
 
             {
-
                 this.TamaKerros = TamaKerros;
-
                 this.UusiKerros = UusiKerros;
-
             }
 
 
@@ -92,30 +87,20 @@ namespace Labrat
 
                         uusikerros = value;
 
-                    }
+   
 
                     else if (value < 1)
-
                     {
-
                         Console.WriteLine("Liian pieni kerros!");
-
                     }
 
                     else if (value > 5)
 
                     {
-
                         Console.WriteLine("Liian suuri kerros!");
-
                     }
-
                 }
-
             }
-
-
-
             public int AsetaKerros()
 
             {
@@ -127,43 +112,27 @@ namespace Labrat
                 return UusiKerros;
 
             }
-
-
-
             public void TulostaKerros()
 
             {
-
                 TamaKerros = UusiKerros;
 
                 Console.WriteLine("Hissi on nyt kerroksessa " + TamaKerros);
-
             }
-
-
-
             public static void TestiHissi()
 
             {
-
                 Hissi dynamo = new Hissi();
-
                 while (true)
-
                 {
-
                     dynamo.TulostaKerros();
-
                     dynamo.AsetaKerros();
-
                 }
-
             }
-
         }
 
 
-
+    
         public class Vahvistin
 
         {
@@ -171,17 +140,11 @@ namespace Labrat
             public int VolumeNyt { get; set; }
 
             public Vahvistin()
-
             {
-
                 this.VolumeNyt = VolumeNyt;
 
                 this.VolumeUusi = VolumeUusi;
-
             }
-
-
-
             private int volumeuusi;
 
             public int VolumeUusi
@@ -191,9 +154,7 @@ namespace Labrat
                 get
 
                 {
-
                     return volumeuusi;
-
                 }
 
                 set
@@ -211,79 +172,47 @@ namespace Labrat
                     else if (value < 0)
 
                     {
-
                         Console.WriteLine("Liian pieni äänenvoimakkuus! Asetetaan minimiin: 0");
-
                         volumeuusi = 0;
-
                     }
-
                     else if (value > 100)
-
                     {
 
                         Console.WriteLine("Liian suuri äänenvoimakkuus! Asetetaan maksimiin: 100");
-
                         volumeuusi = 100;
-
                     }
-
                 }
-
             }
-
-
-
             public int AsetaVolume()
 
             {
 
                 Console.Write("Anna uusi äänenvoimakkuus (0-100) > ");
-
                 VolumeUusi = int.Parse(Console.ReadLine());
-
                 return VolumeUusi;
-
             }
-
-
-
             public void TulostaVolume()
-
             {
-
                 VolumeNyt = VolumeUusi;
 
                 Console.WriteLine("Äänenvoimakkuus on nyt asetettu: " + VolumeNyt);
 
             }
-
-
-
             public static void TestiVahvistin()
 
             {
 
                 Vahvistin onkyo = new Vahvistin();
-
                 while (true)
 
                 {
 
                     onkyo.AsetaVolume();
-
                     onkyo.TulostaVolume();
-
                 }
 
             }
 
-
-
-
-
         }
-
     }
-
 }
