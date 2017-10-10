@@ -53,12 +53,12 @@ namespace Labrat
         {
             Vehicle vehje1 = new Vehicle();
             vehje1.Name = "Porsche";
-            vehje1.Model = "911 Carrera GTS";
+            vehje1.Model = "Cayman GT4";
             Console.WriteLine("Created a new vehicle " + vehje1.Name + " model " + vehje1.Model);
-            vehje1.Tires.Add(new Tire("Nokia", "Hakkapeliitta", "205R16"));
-            vehje1.Tires.Add(new Tire("Nokia", "Hakkapeliitta", "205R16"));
-            vehje1.Tires.Add(new Tire("Nokia", "Hakkapeliitta", "205R16"));
-            vehje1.Tires.Add(new Tire("Nokia", "Hakkapeliitta", "205R16"));
+            vehje1.Tires.Add(new Tire("Michelin", "Pilot Super Sport", "245/35ZR20"));
+            vehje1.Tires.Add(new Tire("Michelin", "Pilot Super Sport", "245/35ZR20"));
+            vehje1.Tires.Add(new Tire("Michelin", "Pilot Super Sport", "295/30ZR20"));
+            vehje1.Tires.Add(new Tire("Michelin", "Pilot Super Sport", "295/30ZR20"));
             Console.WriteLine(vehje1.ToString());
 
             Vehicle vehje2 = new Vehicle();
