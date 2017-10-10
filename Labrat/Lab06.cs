@@ -62,11 +62,11 @@ namespace Labrat
             Console.WriteLine(vehje1.ToString());
 
             Vehicle vehje2 = new Vehicle();
-            vehje2.Name = "Ducati";
-            vehje2.Model = "Diavel";
+            vehje2.Name = "BMW";
+            vehje2.Model = "S 1000RR";
             Console.WriteLine("Created a new vehicle " + vehje2.Name + " model " + vehje2.Model);
-            vehje2.Tires.Add(new Tire("MIC", "Pilot", "160R17"));
-            vehje2.Tires.Add(new Tire("MIC", "Pilot", "140R16"));
+            vehje2.Tires.Add(new Tire("Bridgestone", "Battlax S20 EVO", "120/70 ZR 17"));
+            vehje2.Tires.Add(new Tire("Bridgestone", "Battlax S20 EVO", "190/55 ZR 17"));
             Console.WriteLine(vehje2.ToString());
         }
         public class Fridge
