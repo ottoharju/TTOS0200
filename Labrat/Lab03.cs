@@ -14,7 +14,7 @@ namespace Labrat
             public static bool OnkoLuku(string syote)
             {
                 double number;
-                Console.Write("Syötä luku: ");
+                Console.Write("Syötä luku:  ");
                 syote = Console.ReadLine();
                 bool result = double.TryParse(syote, out number);
                 Console.Write("Syöte " + syote + " on luku: ");
