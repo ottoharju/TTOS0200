@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Labrat
 {
-    class Lab06
+    class Lab07
     {
         public class Opiskelija
         {
