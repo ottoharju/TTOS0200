@@ -24,7 +24,7 @@ namespace Hello
             System.Console.WriteLine("*** BlackJack! ***");
             System.Console.Write("Can you beat my number? Enter any number between 1-21: ");
             //pyritään arpomaan jakajan kortti väliltä 10-21
-            Random rnd = new Random;
+            Random rnd = new Random();
             myNumber = rnd.Next(10, 21);
             //reading and converting 
             theirNumber = System.Convert.ToInt32(System.Console.ReadLine());
