@@ -84,7 +84,7 @@ namespace Labrat
                     List<Shoppings> list = new List<Shoppings>();
                     while (true)
                     {
-                        Console.WriteLine("Halluutko lisätä tuotteen? 1 kyllä 0 ei");
+                        Console.WriteLine("Haluatko lisätä tuotteen? 1 kyllä 0 ei");
                         int input = int.Parse(Console.ReadLine());
                         if (input == 0)
                         {
@@ -97,7 +97,7 @@ namespace Labrat
                         }
                         else if (input == 1)
                         {
-                            Console.WriteLine("Lissää tuote");
+                            Console.WriteLine("Lisää tuote");
                             Console.Write("Tuotteen nimi: ");
                             string name = Console.ReadLine();
                             Console.Write("Tuotteen hinta: ");
@@ -105,7 +105,7 @@ namespace Labrat
                             list.Add(new Shoppings(name, price));
                         }
                         else
-                            Console.WriteLine("Ei käy, koita uuelleen");
+                            Console.WriteLine("Ei käy, kokeile uuelleen");
                     }
                 }
                 catch (Exception e)

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOdemot", "OOdemot\OOdemot.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labrat", "Labrat\Labrat.csproj", "{A6D93958-A194-4B5F-BA45-7571ABC5EC2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDEMO", "WPFDEMO\WPFDEMO.csproj", "{AB9B3A1F-0514-4739-B811-B984FA893F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAssignment1", "WPFAssignment1\WPFAssignment1.csproj", "{AC828049-2243-4B87-B2C7-D5787FC3040B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A6D93958-A194-4B5F-BA45-7571ABC5EC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6D93958-A194-4B5F-BA45-7571ABC5EC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6D93958-A194-4B5F-BA45-7571ABC5EC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9B3A1F-0514-4739-B811-B984FA893F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9B3A1F-0514-4739-B811-B984FA893F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9B3A1F-0514-4739-B811-B984FA893F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9B3A1F-0514-4739-B811-B984FA893F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC828049-2243-4B87-B2C7-D5787FC3040B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC828049-2243-4B87-B2C7-D5787FC3040B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC828049-2243-4B87-B2C7-D5787FC3040B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC828049-2243-4B87-B2C7-D5787FC3040B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

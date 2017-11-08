@@ -13,11 +13,11 @@ namespace Hello
   {
     static void Main(string[] args)
     {
-      //käytä Mainia ohjelmien kutsumiseen, älä kirjoita koodia tänne vaan aliohjelmiin
-      //SayHello();
-      //ShowNames();
-      //staattisen ohjelman kutsuminen toisesta luokasta
-      Hello.blackjack.Blackjack();
+            //käytä Mainia ohjelmien kutsumiseen, älä kirjoita koodia tänne vaan aliohjelmiin
+            //SayHello();
+            //ShowNames();
+            //staattisen ohjelman kutsuminen toisesta luokasta
+            //Hello.blackjack.Blackjack();
     }
 
     static void ShowNames()

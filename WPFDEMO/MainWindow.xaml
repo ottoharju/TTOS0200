@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPFDEMO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDEMO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtNimi" HorizontalAlignment="Left" Height="31" Margin="60,39,0,0" TextWrapping="Wrap" Text="Anna nimesi" VerticalAlignment="Top" Width="99" TextChanged="txtNimi_TextChanged"/>
+        <Button Content="Terve Maailma" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="59,75,0,0" Height="30" Click="Button_Click" Background="#FFF3ECEC"/>
+        <TextBlock x:Name="txbMessu" HorizontalAlignment="Left" Margin="113,185,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Height="19" Width="182"/>
+        <Button Content="Suurenna tekstiä" HorizontalAlignment="Left" VerticalAlignment="Top" Width="118" Margin="177,80,0,0"/>
+        <ComboBox x:Name="cmbVarit" HorizontalAlignment="Left" Margin="325,80,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cmbVarit_SelectionChanged"/>
+
+    </Grid>
+</Window>
