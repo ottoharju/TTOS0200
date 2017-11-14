@@ -105,7 +105,7 @@ namespace Labrat
                             list.Add(new Shoppings(name, price));
                         }
                         else
-                            Console.WriteLine("Ei käy, koita uuelleen");
+                            Console.WriteLine("Ei käy, kokeile uudelleen");
                     }
                 }
                 catch (Exception e)
