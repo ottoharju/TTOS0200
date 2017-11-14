@@ -20,7 +20,7 @@ namespace Labrat
             //Labrat.Lab0405.Opiskelija.TestClasses();
             //Labrat.Lab06.TestaaRenkaat();
             //Labrat.Lab07.TestaaPakka();
-            Labrat.Lab09.Test();
+            Labrat.Lab09.TestDice();
 
         }
     }

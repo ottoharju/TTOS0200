@@ -8,12 +8,6 @@ namespace Labrat
 {
     class JAMK
     {
-        static void LueOhjastajatVer1()
-        {
-            try
-            {
-                catch (Exception)
-            }
-        }
+
     }
 }
