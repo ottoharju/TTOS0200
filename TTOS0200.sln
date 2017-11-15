@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{43D3A9D9-D831-46CD-BE33-1DE6770DB406}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDEMO", "WPFDEMO\WPFDEMO.csproj", "{AB9B3A1F-0514-4739-B811-B984FA893F66}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "WPFAssignment1\Task1.csproj", "{AC828049-2243-4B87-B2C7-D5787FC3040B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKO46Autotalli", "D:\K2832olio\VKO46Autotalli\VKO46Autotalli.csproj", "{F624EA52-8424-4859-8FD4-4D17FBAE8BA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AC828049-2243-4B87-B2C7-D5787FC3040B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC828049-2243-4B87-B2C7-D5787FC3040B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC828049-2243-4B87-B2C7-D5787FC3040B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F624EA52-8424-4859-8FD4-4D17FBAE8BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F624EA52-8424-4859-8FD4-4D17FBAE8BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F624EA52-8424-4859-8FD4-4D17FBAE8BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F624EA52-8424-4859-8FD4-4D17FBAE8BA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
